@@ -1,0 +1,26 @@
+*{
+  margin: auto 0px;
+  padding: 0px;
+}
+body{
+
+}
+section#container{
+  background:#ffcce0 url("../img/background.jpg") no-repeat center;
+  height: 100vh;
+  background-size: contain;
+	color: #000000;
+
+}
+#components{
+  float: left;
+  /*width: 100px;background-color: white;*/
+  height:auto;
+  opacity: 0.8;
+}
+#roses{
+  float: left;
+  max-width: 50%;
+  margin-left: 25%;
+  padding-top: 24px
+}
