@@ -1,26 +1,71 @@
 *{
-  margin: auto 0px;
-  padding: 0px;
+  margin: 0 auto;
 }
 body{
-
+  color: white;
 }
 section#container{
-  background:#ffcce0 url("../img/background.jpg") no-repeat center;
+  background:#ffcce0 url("../img/backgroundRose.jpg") no-repeat center;
   height: 100vh;
-  background-size: contain;
-	color: #000000;
-
+  background-size: cover;
 }
 #components{
   float: left;
   /*width: 100px;background-color: white;*/
   height:auto;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 #roses{
   float: left;
   max-width: 50%;
   margin-left: 25%;
   padding-top: 24px
+}
+p{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+span{
+  color:red;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+#heart{
+  float: left;
+  max-width: 50%;
+  margin-left: 25%;
+  padding-top: 24px
+}
+.valentinePropose{
+  text-decoration: line-through;
+}
+.proposeGreen{
+  color:green;
+}
+
+
+
+
+@media screen and (min-width:720px){
+  #roses{
+    float: left;
+    max-width: 81%;
+    margin-left: 10%;
+    margin-top: 250px;
+  }
+  p{
+    font-size: 21px;
+    color: black;
+    text-align: center;
+  }
+  #heart{
+    float: left;
+    max-width: 81%;
+    margin-left: 10%;
+    margin-top: 250px;
+  }
 }

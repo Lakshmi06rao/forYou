@@ -1,9 +1,0 @@
-body{
-  margin: 0px;
-}
-section#container{
-  background:#ccc url("../img/background.jpg") no-repeat center center;
-  height: 100vh;
-  background-size: cover;
-	color: #000000;
-}
